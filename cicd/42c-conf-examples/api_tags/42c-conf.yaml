@@ -1,5 +1,7 @@
-audit:
-  branches:
+audit:             
+name: 42Crunch REST API Static Security Testing
+uses: 42Crunch/api-security-audit-action@v3
+branches:
     master:
       api_tags:
         - 'category1:tag1'
